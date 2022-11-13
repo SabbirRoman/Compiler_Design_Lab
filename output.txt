@@ -1,0 +1,18 @@
+Stack    Input        Action
+
+
+         i+i+i        Shift
+i       +i+i         Reduce to E = i
+E       +i+i        Shift
+E+       i+i         Reduce to A = +
+EA       i+i        Shift
+EAi       +i         Reduce to E = i
+EAE       +i         Reduce to E = EAE
+E       +i        Shift
+E+       i         Reduce to A = +
+EA       i        Shift
+EAi                Reduce to E = i
+EAE                Reduce to E = EAE
+E       
+
+ACCEPTED
